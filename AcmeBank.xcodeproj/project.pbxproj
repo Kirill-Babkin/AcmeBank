@@ -11,6 +11,15 @@
 		D765394927DD68AE00E6B9F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D765394827DD68AE00E6B9F3 /* ContentView.swift */; };
 		D765394B27DD68AF00E6B9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D765394A27DD68AF00E6B9F3 /* Assets.xcassets */; };
 		D765394E27DD68AF00E6B9F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D765394D27DD68AF00E6B9F3 /* Preview Assets.xcassets */; };
+		D765395927DEAA5D00E6B9F3 /* BankCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D765395827DEAA5D00E6B9F3 /* BankCardView.swift */; };
+		D76C808027DEB85400154485 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C807F27DEB85400154485 /* CodableBundleExtension.swift */; };
+		D76C808627DEBB1200154485 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C808527DEBB1200154485 /* Receipt.swift */; };
+		D77315ED27DF8CB70087F9B4 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77315EC27DF8CB70087F9B4 /* CartView.swift */; };
+		D77315EF27DF8CC80087F9B4 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77315EE27DF8CC80087F9B4 /* CartItemView.swift */; };
+		D77315F227DF95AC0087F9B4 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77315F127DF95AC0087F9B4 /* RoundedCorner.swift */; };
+		D7BA608F27DEBEA000C17603 /* receipt_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D7BA608E27DEBEA000C17603 /* receipt_data.json */; };
+		D7BA609127DECC3900C17603 /* ReceiptRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA609027DECC3900C17603 /* ReceiptRowView.swift */; };
+		D7BA609327DEDB8200C17603 /* RowTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA609227DEDB8200C17603 /* RowTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		D765394827DD68AE00E6B9F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D765394A27DD68AF00E6B9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D765394D27DD68AF00E6B9F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D765395827DEAA5D00E6B9F3 /* BankCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCardView.swift; sourceTree = "<group>"; };
+		D76C807F27DEB85400154485 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		D76C808527DEBB1200154485 /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
+		D77315EC27DF8CB70087F9B4 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		D77315EE27DF8CC80087F9B4 /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
+		D77315F127DF95AC0087F9B4 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		D7BA608E27DEBEA000C17603 /* receipt_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = receipt_data.json; sourceTree = "<group>"; };
+		D7BA609027DECC3900C17603 /* ReceiptRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptRowView.swift; sourceTree = "<group>"; };
+		D7BA609227DEDB8200C17603 /* RowTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,17 @@
 		D765394527DD68AE00E6B9F3 /* AcmeBank */ = {
 			isa = PBXGroup;
 			children = (
-				D765394627DD68AE00E6B9F3 /* AcmeBankApp.swift */,
+				D77315F027DF8DB80087F9B4 /* Styles */,
+				D76C807E27DEB83200154485 /* Extensions */,
+				D76C808127DEB8B000154485 /* Models */,
 				D765394827DD68AE00E6B9F3 /* ContentView.swift */,
+				D765394627DD68AE00E6B9F3 /* AcmeBankApp.swift */,
+				D765395827DEAA5D00E6B9F3 /* BankCardView.swift */,
+				D7BA609027DECC3900C17603 /* ReceiptRowView.swift */,
+				D7BA609227DEDB8200C17603 /* RowTitleView.swift */,
+				D77315EC27DF8CB70087F9B4 /* CartView.swift */,
+				D77315EE27DF8CC80087F9B4 /* CartItemView.swift */,
+				D76C808227DEB8B700154485 /* Data */,
 				D765394A27DD68AF00E6B9F3 /* Assets.xcassets */,
 				D765394C27DD68AF00E6B9F3 /* Preview Content */,
 			);
@@ -65,6 +92,38 @@
 				D765394D27DD68AF00E6B9F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D76C807E27DEB83200154485 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D76C807F27DEB85400154485 /* CodableBundleExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D76C808127DEB8B000154485 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D76C808527DEBB1200154485 /* Receipt.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D76C808227DEB8B700154485 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D7BA608E27DEBEA000C17603 /* receipt_data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D77315F027DF8DB80087F9B4 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				D77315F127DF95AC0087F9B4 /* RoundedCorner.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +186,7 @@
 			files = (
 				D765394E27DD68AF00E6B9F3 /* Preview Assets.xcassets in Resources */,
 				D765394B27DD68AF00E6B9F3 /* Assets.xcassets in Resources */,
+				D7BA608F27DEBEA000C17603 /* receipt_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D76C808627DEBB1200154485 /* Receipt.swift in Sources */,
+				D76C808027DEB85400154485 /* CodableBundleExtension.swift in Sources */,
+				D77315F227DF95AC0087F9B4 /* RoundedCorner.swift in Sources */,
+				D7BA609127DECC3900C17603 /* ReceiptRowView.swift in Sources */,
+				D765395927DEAA5D00E6B9F3 /* BankCardView.swift in Sources */,
 				D765394927DD68AE00E6B9F3 /* ContentView.swift in Sources */,
+				D7BA609327DEDB8200C17603 /* RowTitleView.swift in Sources */,
+				D77315EF27DF8CC80087F9B4 /* CartItemView.swift in Sources */,
+				D77315ED27DF8CB70087F9B4 /* CartView.swift in Sources */,
 				D765394727DD68AE00E6B9F3 /* AcmeBankApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
